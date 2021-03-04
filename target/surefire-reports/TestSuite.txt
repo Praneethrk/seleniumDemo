@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 77.434 s <<< FAILURE! - in TestSuite
+pkg1.CrossBrowser.demo  Time elapsed: 21.777 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-58MQDGT', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.72, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Praneeth R K\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d4ec2fba96870246962dae3d586d91b
+	at pkg1.CrossBrowser.demo(CrossBrowser.java:61)
+Caused by: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+	at pkg1.CrossBrowser.demo(CrossBrowser.java:61)
+Caused by: java.util.concurrent.TimeoutException
+	at pkg1.CrossBrowser.demo(CrossBrowser.java:61)
+

@@ -1,0 +1,4 @@
+# Created at 2021-03-04T12:50:15.543
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Project\ITC\SeleniunTraining 2.0\day1\itcdemo\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
